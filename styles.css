@@ -1,2 +1,39 @@
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item3{
+	padding: 10px; 
+	border:none;
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:50px;
+ }
+.item1{
+	padding: 10px; 
+	border:none;
+	background-color:orange;
+	width:100px;
+	height:100px;
+	font-size:50px;
+ }
+.item2{
+	padding: 10px; 
+	border:none;
+	background-color:blue;
+	width:100px;
+	height:100px;
+	font-size:50px;
+ }
+
+.item:first-child {
+  margin-left: 0;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
